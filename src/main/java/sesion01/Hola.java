@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Hola {
 	public static void main(String[] args) {
 		//imprimir mensaje
-		System.out.println("Bienvenido al curso 2020");
+		System.out.println("Bienvenido al curso 2021");
 		
 		//capturar valores de la consola
 		Scanner sc = new Scanner(System.in);
