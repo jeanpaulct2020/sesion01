@@ -1,4 +1,4 @@
-package sesion01;
+package com.mitocode.ejercicio1;
 
 public class Cuenta {
 
@@ -6,10 +6,14 @@ public class Cuenta {
 	private String titular;
 	private double saldo;
 
+	public Cuenta() {
+		super();
+	}
+
 	public Cuenta(String numeroCuenta, String titular) {
 		this.numeroCuenta = numeroCuenta;
 		this.titular = titular;
-		//this.saldo = 0;
+
 	}
 
 	public Cuenta(String numeroCuenta, String titular, double saldo) {
@@ -49,11 +53,11 @@ public class Cuenta {
 	}
 
 	public void deposito(double monto) {
-		saldo +=monto;
+		saldo += monto;
 	}
-	
+
 	public void retiro(double monto) {
-		saldo-=monto-5.0;
+		saldo -= monto +5.0;
 	}
-	
+
 }
